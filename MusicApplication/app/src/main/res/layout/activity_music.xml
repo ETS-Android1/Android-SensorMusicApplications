@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="26dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#353034"
+    android:theme="@style/Theme.AppCompat"
+    tools:context=".MusicActivity">
+
+
+
+    <Button
+        android:id="@+id/btnBackHomePage"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="left|top"
+        android:layout_marginBottom="20dp"
+        android:text="@string/back"
+        android:textStyle="bold"
+        app:backgroundTint="@color/purple_500"
+        />
+
+    <ImageView
+        android:id="@+id/iwMusicImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/music3"
+        android:contentDescription="@string/todo"
+        />
+
+    <TextView
+        android:id="@+id/tvSongDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Song Detail"
+        android:gravity="center"
+        android:textColor="@color/light_gray"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tvCurrentTimeMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="@color/light_gray"
+            android:textSize="15sp"
+            android:layout_marginEnd="10dp"
+            />
+
+        <SeekBar
+            android:id="@+id/sbMusicSeekBar"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tvTotalTimeMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="@color/light_gray"
+            android:textSize="15sp"
+            android:layout_marginStart="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        >
+
+
+        <Button
+            android:id="@+id/btnPrevMusic"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/ic_media_previous"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            app:backgroundTint="@color/light_gray"
+            />
+
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@android:drawable/ic_media_pause"
+            app:backgroundTint="@color/light_gray"
+            />
+
+        <Button
+            android:id="@+id/btnStop"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/ic_delete"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            app:backgroundTint="@color/light_gray"
+            />
+
+        <Button
+            android:id="@+id/btnNextMusic"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/ic_media_next"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            app:backgroundTint="@color/light_gray"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

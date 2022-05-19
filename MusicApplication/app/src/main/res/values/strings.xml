@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">KK MUSIC</string>
+    <string name="kk_app">KK MUSIC</string>
+    <string name="username_hint">Sign In with phone number</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="btLogin_text">Sign In</string>
+    <string name="signup_info">Don\'t have an account?</string>
+    <string name="btnSignUp_text">Sign Up!</string>
+    <string name="welcome_user">WELCOME KK MUSIC</string>
+    <string name="name_hint">Name</string>
+    <string name="surname_hint">Surname</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint_2">Password</string>
+    <string name="password_hint_3">Re-enter Password</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="birth_date_hint">Birth Date</string>
+    <string name="todo">TODO</string>
+    <string name="delete">DELETE</string>
+    <string name="send">SEND</string>
+    <string name="songs">SONGS</string>
+    <string name="no_songs">NO SONGS FOUND</string>
+    <string name="back">BACK</string>
+</resources>

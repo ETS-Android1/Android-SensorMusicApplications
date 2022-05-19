@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="26dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/purple_500"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:gravity="center"
+        android:text="@string/kk_app"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white_gray"
+        />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/username_hint"
+        android:imeOptions="actionNext"
+        android:textSize="14sp"
+        android:textColorHint="@color/white_gray"
+        android:textColor="@color/white_gray"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_hint"
+        android:imeOptions="actionDone"
+        android:textSize="14sp"
+        android:layout_marginBottom="28dp"
+        android:textColorHint="@color/white_gray"
+        android:textColor="@color/white_gray"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btLogin_text"
+        android:layout_marginBottom="28dp"
+        android:textColor="@color/purple_700"
+        android:backgroundTint="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="36dp"
+        >
+
+        <TextView
+            android:id="@+id/tvSignUpInfo"
+            android:text="@string/signup_info"
+            android:textColor="@color/white_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSignUp_text"
+            android:textAllCaps="false"
+            android:background="@android:color/transparent"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

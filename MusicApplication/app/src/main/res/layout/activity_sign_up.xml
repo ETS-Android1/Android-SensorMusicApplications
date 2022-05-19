@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="26dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/purple_500"
+    tools:context=".SignUpActivity">
+
+    <Button
+        android:id="@+id/btnBackLoginScreen"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:text="@string/back"
+        android:textColor="@color/purple_700"
+        android:backgroundTint="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="left|top"
+        android:layout_marginBottom="30dp"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/name_hint"
+        android:imeOptions="actionNext"
+        android:textSize="14sp"
+        android:textColorHint="@color/white_gray"
+        android:textColor="@color/white_gray"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/surname_hint"
+        android:imeOptions="actionNext"
+        android:textSize="14sp"
+        android:textColorHint="@color/white_gray"
+        android:textColor="@color/white_gray"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/birth_date_hint"
+        android:imeOptions="actionNext"
+        android:textSize="14sp"
+        android:textColorHint="@color/white_gray"
+        android:textColor="@color/white_gray"
+        android:inputType="date"
+        />
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/email_hint"
+        android:imeOptions="actionNext"
+        android:textSize="14sp"
+        android:textColorHint="@color/white_gray"
+        android:textColor="@color/white_gray"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/phone_number_hint"
+        android:imeOptions="actionNext"
+        android:textSize="14sp"
+        android:textColorHint="@color/white_gray"
+        android:textColor="@color/white_gray"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/etPasswordSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/password_hint_2"
+        android:imeOptions="actionNext"
+        android:textSize="14sp"
+        android:textColorHint="@color/white_gray"
+        android:textColor="@color/white_gray"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/etPasswordReSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/password_hint_3"
+        android:imeOptions="actionDone"
+        android:textSize="14sp"
+        android:textColorHint="@color/white_gray"
+        android:textColor="@color/white_gray"
+        android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:id="@+id/btnSignUpSUP"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSignUp_text"
+        android:layout_marginBottom="28dp"
+        android:textColor="@color/purple_700"
+        android:backgroundTint="@color/white"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
